@@ -1,9 +1,8 @@
-var max = 1000;
+function sum(max) {
 var increment = 0;
-
-for(var i = 0; i < max; i++) {
-	if(i % 3 == 0 || i % 5 == 0)
-		increment += i;
+for(var i = 0; i < max; i++)
+	increment += i;
+return i;
 }
 
-console.log(i);
+console.log(sum(1000));
